@@ -38,6 +38,11 @@
             color: #333; /* Dark gray text color */
         }
 
+        .h2_font
+        {
+            color: white;
+        }
+
         .center {
             border-radius: 5px;
             width: 50%;
@@ -104,7 +109,7 @@
 
                         @csrf
 
-                        <input type="text" name="category" placeholder="Write Category Name" class="input_color">
+                        <input type="text" name="category" placeholder="Write Category Name" class="input_color" required>
 
                         <input type="submit" class="btn btn-primary" name="submit" value="Add Category">
                     </form>
@@ -120,8 +125,8 @@
 
                     <tr>
                         <td>{{$data->category_name}}</td>
-                        <td  style="width:100px; margin-right:auto; margin-left:auto; display: flex; justify-content: center; margin-top:5px; margin-bottom:5px;"class="btn btn-danger">
-                            <a onclick="return confirm('Are you sure you want to delete this record?')" href="{{url('delete_category',$data->id)}}">Delete</a>
+                        <td  style="width:100px; margin-right:auto; margin-left:auto; display: flex; justify-content: center; margin-top:5px; margin-bottom:5px; text-decoration: none;"class="btn btn-danger">
+                            <a style="text-decoration: none;" onclick="return confirm('Are you sure you want to delete this record?')" href="{{url('delete_category',$data->id)}}">Delete</a>
                         </td>
                     </tr>
 
