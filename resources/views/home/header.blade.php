@@ -1,6 +1,6 @@
 <header class="header_section">
     <div class="container">
-       <nav class="navbar navbar-expand-lg custom_nav-container ">
+       <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="{{url('/')}}"><img width="250" src="images/logo.png" alt="#" /></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class=""> </span>
@@ -26,6 +26,9 @@
                 <li class="nav-item">
                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url('show_cart')}}">Cart</a>
+                </li>
 
                 <form class="form-inline">
                    <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
@@ -37,11 +40,10 @@
 
                 @auth
 
-                    <a
-                        href="{{ route('profile.show') }}" id="prof" class="btn btn-primary">
+                    <a href="{{ route('profile.show') }}" id="prof" style="width:125px;" class="btn btn-primary">
                         {{ __('Edit Profile') }}</a>
 
-                    <form method="POST" action="{{ route('logout') }}" class="inline">
+                    <form method="POST" action="{{ route('logout') }}" style="width:150px; text-align:center;" class="inline">
                         @csrf
 
                         <button type="submit" class="btn btn-danger">

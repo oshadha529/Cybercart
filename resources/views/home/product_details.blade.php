@@ -28,36 +28,30 @@
          @include('home.header')
          <!-- end header section -->
 
-      <div class="col-sm-6 col-md-4 col-lg-4" style="margin: auto; width:25%; padding:30px;">
+      <div class="col-sm-6 col-md-4 col-lg-4" style="border:solid black; margin: auto; width:25%; padding:30px;">
 
-            <div class="img-box" style="padding:20px;">
-                <img src="product/{{$product->image}}" alt="" style="width:250px; height:250px;" >
+            <div class="img-box" style="padding:20px; text-align:center;">
+                <img src="product/{{$product->image}}" alt="" style="width:90%; height:70%;" >
             </div>
             <div class="detail-box">
-                <h5>
+                <h5 style="text-align:center;">
                     {{$product->title}}
                 </h5>
 
                 @if ($product->discount_price!=null)
 
                 <h6 style="color: red;">
-                    Discount Price
-                    <br>
-                    Rs. {{$product->discount_price}}
+                    Discount Price : Rs.{{$product->discount_price}}.00/=
                 </h6>
 
                 <h6 style="color:blue; text-decoration: line-through;">
-                    Price
-                    <br>
-                    Rs. {{$product->price}}
+                    Price : Rs.{{$product->price}}.00/=
                 </h6>
 
                 @else
 
                 <h6 style="color:blue;">
-                    Price
-                    <br>
-                    Rs. {{$product->price}}
+                    Price : Rs.{{$product->price}}.00/=
                 </h6>
 
                 @endif
@@ -66,7 +60,19 @@
                 <h6>Product Details : {{$product->description}}</h6>
                 <h6>Available : {{$product->quantity}}</h6>
 
-                <a href="" class="btn btn-primary">Add To Cart</a>
+                <form action="{{url('add_cart',$product->id)}}" method="Post">
+
+                    @csrf
+
+                    <div class="row" style="margin-top:20px;">
+                        <div class="" style="text-align:center; margin-left:auto; margin-right:auto;">
+                            <input type="number" name="quantity" style="width: 80px;" value="1" min="1">
+                        </div>
+                        <div class="" style="text-align:center; margin-left:auto; margin-right:auto;">
+                            <input type="submit" value="Add To Cart">
+                        </div>
+                    </div>
+                </form>
 
             </div>
         </div>
