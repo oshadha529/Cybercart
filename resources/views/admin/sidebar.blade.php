@@ -69,7 +69,7 @@
           <span class="menu-icon">
             <i class="mdi mdi-shape-rectangle-plus"></i>
           </span>
-          <span class="menu-title">Add Products</span>
+          <span class="menu-title">Add Product</span>
         </a>
       </li>
       <li class="nav-item menu-items">
@@ -77,7 +77,7 @@
           <span class="menu-icon">
             <i class="mdi mdi-play-box-outline"></i>
           </span>
-          <span class="menu-title">Show Product</span>
+          <span class="menu-title">Show Products</span>
         </a>
       </li>
       <li class="nav-item menu-items">
