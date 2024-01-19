@@ -8,6 +8,8 @@ use App\Models\Category;
 
 use App\Models\product;
 
+use App\Models\Order;
+
 class AdminController extends Controller
 {
     public function view_category()
@@ -104,5 +106,29 @@ class AdminController extends Controller
 
         $product->save();
         return redirect()->back()->with('message','Product Updated Successfully');
+    }
+
+    public function order()
+    {
+        $order = order::all();
+        return view('admin.order',compact('order'));
+    }
+
+    public function delivered($id)
+    {
+        $order = order::find($id);
+        $order->delivery_status = "Delivered";
+        $order->payment_status = "Paid";
+
+        $order->save();
+        return redirect()->back();
+    }
+
+    public function searchdata(Request $request)
+    {
+        $searchText = $request->search;
+        $order = order::where('name','LIKE',"%$searchText%")->orWhere('phone','LIKE',"%$searchText%")->orWhere('product_title','LIKE',"%$searchText%")->orWhere('address','LIKE',"%$searchText%")->get();
+
+        return view('admin.order',compact('order'));
     }
 }
