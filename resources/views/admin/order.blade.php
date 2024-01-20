@@ -44,11 +44,11 @@
         <div class="content-wrapper">
             <h1 class="title_deg">All Orders</h1>
 
-            <div style="padding-left: 450px; padding-bottom:30px;">
+            <div style="padding-left: 350px; padding-bottom:30px;">
                 <form action="{{url('search')}}" method="get">
                     @csrf
-                    <input style="color: black;" type="text" name="search" placeholder="Search Here">
-                    <input type="submit" value="Search" class="btn btn-outline-primary">
+                    <input style="color: black;  border-radius:5px; width:50%; margin:10px;" type="text" name="search" placeholder="Search Here">
+                    <input type="submit" value="Search" style="height: 38px;" class="btn btn-outline-primary">
                 </form>
             </div>
 
