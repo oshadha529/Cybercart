@@ -20,14 +20,9 @@
           <div class="card">
             <div class="card-body">
               <div class="row">
-                <div class="col-9">
+                <div style="text-align: center; margin:auto; margin-bottom:20px;" class="col-9">
                   <div class="d-flex align-items-center align-self-start">
-                    <h3 class="mb-0">{{$total_order}}</h3>
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class="icon icon-box-success">
-                    <span class="mdi mdi-arrow-top-right icon-item"></span>
+                    <h3 style="text-align: center; margin:auto;" class="mb-0">{{$total_order}}</h3>
                   </div>
                 </div>
               </div>
@@ -39,14 +34,9 @@
           <div class="card">
             <div class="card-body">
               <div class="row">
-                <div class="col-9">
+                <div style="text-align: center; margin:auto; margin-bottom:20px;" class="col-9">
                   <div class="d-flex align-items-center align-self-start">
-                    <h3 class="mb-0">{{$total_user}}</h3>
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class="icon icon-box-danger">
-                    <span class="mdi mdi-arrow-bottom-left icon-item"></span>
+                    <h3 style="text-align: center; margin:auto;" class="mb-0">{{$total_user}}</h3>
                   </div>
                 </div>
               </div>
@@ -58,14 +48,9 @@
           <div class="card">
             <div class="card-body">
               <div class="row">
-                <div class="col-9">
+                <div style="text-align: center; margin:auto; margin-bottom:20px;" class="col-9">
                   <div class="d-flex align-items-center align-self-start">
-                    <h3 class="mb-0">Rs. {{$total_revenue}}.00</h3>
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class="icon icon-box-success ">
-                    <span class="mdi mdi-arrow-top-right icon-item"></span>
+                    <h3 style="text-align: center; margin:auto;" class="mb-0">Rs. {{$total_revenue}}.00</h3>
                   </div>
                 </div>
               </div>
@@ -77,14 +62,9 @@
             <div class="card">
               <div class="card-body">
                 <div class="row">
-                  <div class="col-9">
+                  <div style="text-align: center; margin:auto; margin-bottom:20px;" class="col-9">
                     <div class="d-flex align-items-center align-self-start">
-                      <h3 class="mb-0">{{$total_delivered}}</h3>
-                    </div>
-                  </div>
-                  <div class="col-3">
-                    <div class="icon icon-box-danger">
-                      <span class="mdi mdi-arrow-bottom-left icon-item"></span>
+                      <h3 style="text-align: center; margin:auto;" class="mb-0">{{$total_delivered}}</h3>
                     </div>
                   </div>
                 </div>
@@ -96,14 +76,9 @@
             <div class="card">
               <div class="card-body">
                 <div class="row">
-                  <div class="col-9">
+                  <div style="text-align: center; margin:auto; margin-bottom:20px;" class="col-9">
                     <div class="d-flex align-items-center align-self-start">
-                      <h3 class="mb-0">{{$total_processing}}</h3>
-                    </div>
-                  </div>
-                  <div class="col-3">
-                    <div class="icon icon-box-danger">
-                      <span class="mdi mdi-arrow-bottom-left icon-item"></span>
+                      <h3 style="text-align: center; margin:auto;" class="mb-0">{{$total_processing}}</h3>
                     </div>
                   </div>
                 </div>
@@ -118,8 +93,7 @@
     <!-- partial:partials/_footer.html -->
     <footer class="footer">
       <div class="d-sm-flex justify-content-center justify-content-sm-between">
-        <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © bootstrapdash.com 2020</span>
-        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/bootstrap-admin-template/" target="_blank">Bootstrap admin templates</a> from Bootstrapdash.com</span>
+        <span style="margin: auto;" class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © Cybercart.com 2024</span>
       </div>
     </footer>
     <!-- partial -->

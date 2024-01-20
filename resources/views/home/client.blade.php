@@ -12,19 +12,19 @@
                    <div class="img_container">
                       <div class="img-box">
                          <div class="img_box-inner">
-                            <img src="images/client.jpg" alt="">
+                            <img src="images/user.jpg" alt="">
                          </div>
                       </div>
                    </div>
                    <div class="detail-box">
                       <h5>
-                         Anna Trevor
+                         Sulakshan Perera
                       </h5>
                       <h6>
                          Customer
                       </h6>
                       <p>
-                         Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
+                        Amazing selection and quality! The Ecommerce clothing store offers trendy styles with exceptional comfort. I always find something perfect for every occasion. Fast shipping and great customer service too!
                       </p>
                    </div>
                 </div>
@@ -34,19 +34,19 @@
                    <div class="img_container">
                       <div class="img-box">
                          <div class="img_box-inner">
-                            <img src="images/client.jpg" alt="">
+                            <img src="images/user3.jpg" alt="">
                          </div>
                       </div>
                    </div>
                    <div class="detail-box">
                       <h5>
-                         Anna Trevor
+                         Raveesha Fernando
                       </h5>
                       <h6>
                          Customer
                       </h6>
                       <p>
-                         Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
+                        Impressed with the Ecommerce clothing store! From chic fashion to cozy loungewear, the variety is fantastic. The sizing guide is accurate, and the shopping experience is seamless. Can't wait to shop again!
                       </p>
                    </div>
                 </div>
@@ -56,19 +56,19 @@
                    <div class="img_container">
                       <div class="img-box">
                          <div class="img_box-inner">
-                            <img src="images/client.jpg" alt="">
+                            <img src="images/user2.jpg" alt="">
                          </div>
                       </div>
                    </div>
                    <div class="detail-box">
                       <h5>
-                         Anna Trevor
+                         Dulan Charuka
                       </h5>
                       <h6>
                          Customer
                       </h6>
                       <p>
-                         Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
+                        Exceptional service! The Ecommerce clothing store delivers not only stylish apparel but also a delightful shopping experience. Quick deliveries, easy returns, and the clothes fit perfectly. Highly recommend for fashion enthusiasts!
                       </p>
                    </div>
                 </div>

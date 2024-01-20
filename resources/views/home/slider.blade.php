@@ -1,6 +1,6 @@
 <section class="slider_section ">
-    <div class="slider_bg_box">
-       <img src="images/slider-bg.jpg" alt="">
+    <div  class="slider_bg_box">
+       <img style="margin-right:100px; float:right; width:450px; height:550px;" src="images/capture.png" alt="">
     </div>
     <div id="customCarousel1" class="carousel slide" data-ride="carousel">
        <div class="carousel-inner">
