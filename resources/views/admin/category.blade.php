@@ -109,7 +109,7 @@
 
                         @csrf
 
-                        <input type="text" name="category" placeholder="Write Category Name" class="input_color" required>
+                        <input type="text" name="category" style="border-radius:5px;" placeholder="Write Category Name" class="input_color" required>
 
                         <input type="submit" class="btn btn-primary" name="submit" value="Add Category">
                     </form>
